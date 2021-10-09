@@ -15,15 +15,15 @@ html{
 :root{
     --white-color: #ffffff;
     --black-color: #000000;
-    --primary-color: #336D51;
+    --primary-color: #336d51;
     --category-color: #E6ECE9;
     --line-color: rgba(51, 109, 81, 0.2);
-    --sub-text-color: #7C7C7C;
+    --sub-text-color: #acacac;
     --text-color: #212B36;
 }
 /* Responsive*/
 .grid{
-    width: 1200px;
+    width: 1400px;
     max-width: 100%;
     margin: 0 auto;
 }

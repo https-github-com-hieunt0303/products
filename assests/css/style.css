@@ -4,24 +4,25 @@
 .product-heading{
     display: flex;
     align-items: center;
-    padding: 8px 155px;
+    padding: 8px 16px;
     border-bottom: 1px solid var(--line-color);
 }
 .product-heading__label{
     font-size: 1.4rem;
+    font-family: 'Poppins', sans-serif;
     color: var(--sub-text-color);
     font-style: italic;
-    font-weight: 400;
+    font-weight: 300;
     letter-spacing: 1px;
 }
 .category-name{
-    margin: 32px 0;
+    margin: 38px 0;
     font-size: 2.4rem;
     color: var(--primary-color);
     font-family: 'Montserrat', sans-serif;
 }
 .category{
-    margin-top: 48px;
+    margin-top: 42px;
     background-color: var(--category-color);
     border-radius: 2px;
 }
@@ -63,10 +64,46 @@
     border-radius: 2px;
 }
 .products-filter{
-    margin: 24px 0;
+    margin: 24px 0 0 0;
     width: 100%;
     display: flex;
     justify-content: center;
+}
+.products-filter__search{
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin: 0 16px;
+    position: relative;
+}
+.products-filter__search-input{
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+    outline: none;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.4rem;
+}
+.products-filter__search-btn{
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: auto;
+    width: 80px;
+    border: none;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+}
+.products-filter__search-btn:hover{
+    background-color: rgba(51, 109, 81, 0.9);
+}
+.products-filter__search-icon{
+    font-size: 1.6rem;
+    color: var(--white-color);
 }
 .products-select-type{
     min-width: 250px;
@@ -90,7 +127,7 @@
 .products-container{
 }
 .products-container-row{
-    margin-top: 37px;
+    margin-top: 30px;
 }
 .products-container-item{
     display: flex;
@@ -135,6 +172,8 @@
     color: var(--text-color);
 }
 .product-review-img{
+    width: 100px;
+    margin-top: -1px;
     margin-right: 8px;
 }
 .product-review-number{
@@ -151,12 +190,15 @@
 }
 .btn_buy-now{
     margin-top: 24px;
-    border: none;
+    color: var(--white-color);
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6rem;
+    border: 1px solid var(--primary-color);
 }
 .btn_buy-now:hover{
     color: var(--primary-color);
     background-color: var(--white-color);
-    border: 1px solid var(--primary-color);
 }
 .products-page{
     margin-top: 16px;
@@ -179,7 +221,7 @@
     background-color: var(--primary-color);
 }
 .products-page-btn:hover{
-    background-color: #99B6A8;
+    background-color: rgba(51, 109, 81, 0.9);
 }
 .products-page-number{
     font-size: 1.8rem;
