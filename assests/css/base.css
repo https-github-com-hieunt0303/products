@@ -48,7 +48,7 @@ html{
 }
 .grid-col-7-3{
     width: calc(100% / 3);
-    display: flex;
+    display: block;
     padding-left: 12px;
     padding-right: 12px;
 }
