@@ -51,6 +51,16 @@
         text-align: start;
         font-size: 1.6rem;
     }
+    .product-option-info-name{
+        font-size: 1.3rem;
+        line-height: 1.3rem;
+    }
+    .product-option-info-icon{
+        font-size: 1rem;
+    }
+    .product-option-info-item{
+        font-size: 1.2rem;
+    }
 }
 /* Mobile + Tablet */
 @media (max-width: 1023px){
@@ -92,13 +102,12 @@
 }
 @media (min-width: 601px) and (max-width: 767px){
     .product-review{
-        margin-top: 30px;
+        margin-top: 36px;
         justify-content: space-around;
     }
-
-
     .product-review-img{
-        width: 60px;
+        width: 70px;
+        margin-top: -1px;
         margin-right: 8px;
     }
     .product-review-number{
