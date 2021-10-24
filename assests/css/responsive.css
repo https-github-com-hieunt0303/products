@@ -15,7 +15,7 @@
     }
     .btn_buy-now{
         font-size: 1.2rem;
-        padding: 8px 12px;
+        padding: 6px 10px;
     }
     .products-container-item-heart{
         width: 25px;
@@ -24,9 +24,9 @@
         left: 6px;
     }
     .product-name{
-        font-size: 1.3rem;
+        font-size: 1.4rem;
         font-weight: 600;
-        text-align: center;
+        text-align: left;
         margin: 0 0 16px 0;
         line-height: 1.8rem;
 
@@ -36,15 +36,19 @@
         grid-template-columns: auto auto;
     }
     .product-review{
-        margin-top: 20px;
+        margin-top: 48px;
+        flex-direction: column;
+        align-items: flex-start;
     }
     .product-review-img{
-        width: 50px;
+        width: 70px;
+        margin: 0 0 16px 0;
     }
     .product-review-number{
-        font-size: 0.8rem;
+        font-size: 1.2rem;
     }
     .product-price{
+        text-align: start;
         font-size: 1.6rem;
     }
 }
@@ -56,13 +60,6 @@
     }
     .grid-col-7{
         width: 100%;
-    }
-    .product-review{
-        margin-top: 16px;
-    }
-    .btn_buy-now{
-        font-size: 1.4rem;
-        padding: 12px 14px;
     }
     .product-heading__label{
         font-size: 1.2rem;
@@ -77,19 +74,29 @@
         margin: 0 0 16px 0;
     }
 }
-/* @media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1023px){
+    .btn_buy-now{
+        font-size: 1.4rem;
+        padding: 12px 14px;
+    }
+    .product-review{
+        margin-top: 32px;
+    }
     .product-review-img{
-        width: 60px;
+        width: 80px;
         margin-right: 8px;
     }
     .product-review-number{
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
-} */
+}
 @media (min-width: 601px) and (max-width: 767px){
     .product-review{
         margin-top: 30px;
+        justify-content: space-around;
     }
+
+
     .product-review-img{
         width: 60px;
         margin-right: 8px;

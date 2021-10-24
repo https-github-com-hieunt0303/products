@@ -121,7 +121,7 @@
     font-weight: 500;
 }
 .category-promote{
-    margin-top: 16px;
+    margin: 16px 0 0 12px;
 }
 .category-promote-img{
     width: 100%;
@@ -230,7 +230,7 @@
     margin: 16px 0 8px 0;
 }
 .product-name{
-    font-size: 1.4rem;
+    font-size: 1.6rem;
     font-weight: 600;
     text-align: center;
     margin: 16px 0;
@@ -240,6 +240,7 @@
     line-height: 2.4rem;
 }
 .product-review{
+    margin-top: 24px;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -248,11 +249,11 @@
 }
 .product-review-img{
     width: 100px;
-    margin-top: -1px;
-    margin-right: 8px;
+    margin-top: -4px;
+    margin-right: 24px;
 }
 .product-review-number{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     font-weight: 400;
     line-height: 0;
 }
@@ -263,8 +264,7 @@
     text-align: center;
     color: var(--sub-text-color);
 }
-.products-container-item-btn{
-}
+
 .btn_buy-now{
     width: 100%;
     margin-top: 24px;
