@@ -7,21 +7,49 @@
     <title>Products</title>
     <link rel="stylesheet" href="./assests/css/base.css">
     <link rel="stylesheet" href="./assests/css/style.css">
+    <link rel="stylesheet" href="./assests/css/responsive.css">
     <link href="assests/font/fontawesome-free-5.15.3-web/css/all.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="products">
+        <div class="product-heading">
+            <span class="product-heading__label">Products / face</span>
+        </div>
         <div class="grid">
-            <div class="product-heading">
-                <span class="product-heading__label">Products / face</span>
+            <div class="product-search">
+                <h2 class="category-name">FACE</h2>
+                <div class="products-filter">
+                    <div class="products-filter__search">
+                        <input type="text" class="products-filter__search-input" placeholder="Search...">
+                        <button class="products-filter__search-btn">
+                            <i class="products-filter__search-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="grid">
+            <div class="product-option-info">
+                <div class="product-option-info-detail">
+                    <span class="product-option-info-name">
+                        Price from low to high
+                    </span>
+                    <i class="product-option-info-icon fas fa-chevron-down"></i>
+                    <ul class="product-option-info-list">
+                        <li class="product-option-info-item">Price from low to high</li>
+                        <li class="product-option-info-item">Price from high to low</li>
+                        <li class="product-option-info-item">Price from 5$ to 20$</li>
+                        <li class="product-option-info-item">Price from 20$ to 50$</li>
+                        <li class="product-option-info-item">Price from 50$ to 100$</li>
+                    </ul>
+                </div>
             </div>
         </div>
         <div class="grid">
             <div class="grid-row">
                 <div class="grid-col-3">
-                    <h2 class="category-name">FACE</h2>
                     <nav class="category">
                         <h3 class="category-heading">
                             <img src="./assests/img/category-list-icon.png" alt="Category" class="category-heading-icon">
@@ -47,13 +75,13 @@
                 </div>
 
                 <div class="grid-col-7">
-                    <div class="products-filter">
+                    <!-- <div class="products-filter">
                         <div class="products-filter__search">
                             <input type="text" class="products-filter__search-input" placeholder="Search...">
                             <button class="products-filter__search-btn">
                                 <i class="products-filter__search-icon fas fa-search"></i>
                             </button>
-                        </div>
+                        </div> -->
                         <!-- <div class="products-select-type">
                             <span class="products-select-type__label">Product type</span>
                             <i class="products-select-type__icon fas fa-chevron-down"></i>
@@ -66,7 +94,7 @@
                             <span class="products-select-type__label">Product type</span>
                             <i class="products-select-type__icon fas fa-chevron-down"></i>
                         </div> -->
-                    </div>
+                    <!-- </div> -->
 
                     <div class="products-container">
                         <div class="grid-row products-container-row">
@@ -132,9 +160,7 @@
                                 </div>
                                 <button class="btn btn_buy-now">BUY NOW</button>
                             </div>
-                        </div>
 
-                        <div class="grid-row products-container-row">
                             <div class="grid-col-7-3">
                                 <div class="products-container-item">
                                     <div class="products-container-item__pic">
@@ -156,7 +182,143 @@
                                 <button class="btn btn_buy-now">BUY NOW</button>
                             </div>
 
+                            
                             <div class="grid-col-7-3">
+                                <div class="products-container-item">
+                                    <div class="products-container-item__pic">
+                                        <img src="./assests/img/Herbivore_Emerald_HempSeed_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
+                                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                                    </div>
+                                    
+                                    <div class="products-container-item__info">
+                                        <div class="product-name-box">
+                                            <h4 class="product-name">Emerald Deep Moisture Glow Oil</h4>
+                                        </div>
+                                        <div class="product-review">
+                                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                            <span class="product-review-number">220 Reviews</span>
+                                        </div>
+                                        <p class="product-price">$54.00</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn_buy-now">BUY NOW</button>
+                            </div>
+                            
+                            <div class="grid-col-7-3">
+                                <div class="products-container-item">
+                                    <div class="products-container-item__pic">
+                                        <img src="./assests/img/Herbivore_Prism_12AHA_Exfoliating_FaceSerum_Ecomm.jpg" alt="" class="products-container-item-img">
+                                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                                    </div>
+
+                                    <div class="products-container-item__info">
+                                        <div class="product-name-box">
+                                            <h4 class="product-name">PRISM AHA + BHA Exfoliating Glow Serum
+                                            </h4>
+                                        </div>
+                                        <div class="product-review">
+                                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                            <span class="product-review-number">220 Reviews</span>
+                                        </div>
+                                        <p class="product-price">$54.00</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn_buy-now">BUY NOW</button>
+                            </div>
+
+                            <div class="grid-col-7-3">
+                                <div class="products-container-item">
+                                    <div class="products-container-item__pic">
+                                        <img src="./assests/img/Herbivore_BlueTansy_Pores_FaceMask_Ecomm.jpg" alt="" class="products-container-item-img">
+                                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                                    </div>
+
+                                    <div class="products-container-item__info">
+                                        <div class="product-name-box">
+                                            <h4 class="product-name">Blue Tansy Invisible Pores Resurfacing Clarity Mask</h4>
+                                        </div>
+                                        <div class="product-review">
+                                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                            <span class="product-review-number">220 Reviews</span>
+                                        </div>
+                                        <p class="product-price">$54.00</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn_buy-now">BUY NOW</button>
+                            </div>
+
+                            <div class="grid-col-7-3">
+                                <div class="products-container-item">
+                                    <div class="products-container-item__pic">
+                                        <img src="./assests/img/Herbivore_Brighten_Enzyme_FaceMask_Ecomm.jpg" alt="" class="products-container-item-img">
+                                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                                    </div>
+
+                                    <div class="products-container-item__info">
+                                        <div class="product-name-box">
+                                            <h4 class="product-name">Brighten Pineapple + Gemstone Mask</h4>
+                                        </div>
+                                        <div class="product-review">
+                                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                            <span class="product-review-number">220 Reviews</span>
+                                        </div>
+                                        <p class="product-price">$54.00</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn_buy-now">BUY NOW</button>
+                            </div>
+
+                            <div class="grid-col-7-3">
+                                <div class="products-container-item">
+                                    <div class="products-container-item__pic">
+                                        <img src="./assests/img/Herbivore_CocoRose_BodyScrub_Ecomm.jpg" alt="" class="products-container-item-img">
+                                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                                    </div>
+
+                                    <div class="products-container-item__info">
+                                        <div class="product-name-box">
+                                            <h4 class="product-name">Coco Rose Exfoliating Body Scrub</h4>
+                                        </div>
+                                        <div class="product-review">
+                                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                            <span class="product-review-number">220 Reviews</span>
+                                        </div>
+                                        <p class="product-price">$54.00</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn_buy-now">BUY NOW</button>
+                            </div>
+
+                           
+
+                            
+                        </div>
+
+                        <!-- <div class="grid-row products-container-row">
+                            <div class="grid-col-7-3">
+                                <div class="products-container-item">
+                                    <div class="products-container-item__pic">
+                                        <img src="./assests/img/Herbivore_Bakuchiol_Serum_Ecomm.jpg" alt="" class="products-container-item-img">
+                                        <img src="./assests/img/Heart.png" alt="Heart" class="products-container-item-heart">
+                                    </div>
+
+                                    <div class="products-container-item__info">
+                                        <div class="product-name-box">
+                                            <h4 class="product-name">Bakuchiol Retinol Alternative Smoothing Serum</h4>
+                                        </div>
+                                        <div class="product-review">
+                                            <img src="./assests/img/Star.png" alt="" class="product-review-img">
+                                            <span class="product-review-number">220 Reviews</span>
+                                        </div>
+                                        <p class="product-price">$54.00</p>
+                                    </div>
+                                    <div class="products-container-item-btn">
+                                        <button class="btn btn_buy-now">BUY NOW</button>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                            <!-- <div class="grid-col-7-3">
                                 <div class="products-container-item">
                                     <div class="products-container-item__pic">
                                         <img src="./assests/img/Herbivore_Emerald_HempSeed_FaceOil_Ecomm.jpg" alt="" class="products-container-item-img">
@@ -197,10 +359,10 @@
                                     </div>
                                 </div>
                                 <button class="btn btn_buy-now">BUY NOW</button>
-                            </div>
-                        </div>
+                            </div> 
+                        </div> -->
 
-                        <div class="grid-row products-container-row">
+                        <!-- <div class="grid-row products-container-row">
                             <div class="grid-col-7-3">
                                 <div class="products-container-item">
                                     <div class="products-container-item__pic">
@@ -264,7 +426,7 @@
                                 </div>
                                 <button class="btn btn_buy-now">BUY NOW</button>
                             </div>
-                        </div>
+                        </div> -->
 
                         <div class="products-page">
                             <div class="products-page-btn">
