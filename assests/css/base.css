@@ -75,6 +75,7 @@ html{
 }
 .btn_buy-now:hover{
     color: var(--primary-color);
+    background-color: var(--white-color);
     cursor: pointer;
 }
 .products-container-item{
